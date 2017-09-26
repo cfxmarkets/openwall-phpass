@@ -1,0 +1,19 @@
+{
+    "name": "openwall/phpass",
+    "description": "A Password Hashing library written for CodeIgniter by Solar Design and placed in the public domain",
+    "type": "library",
+    "keywords": [ "codeigniter", "bonfire",  "password", "hash", "security" ],
+    "license": "CC0",
+    "authors": [
+        {
+            "name": "Solar Designer",
+            "email": "solar@openwall.com",
+            "homepage": "http://openwall.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Openwall\\": "src/"
+        }
+    }
+}
